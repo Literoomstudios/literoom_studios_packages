@@ -67,11 +67,17 @@
     color:var(--ivory);
     opacity:0; animation:fadeup .8s ease .25s forwards;
   }
+  .h-lite { color:#ffffff; font-style:normal; }
+  .h-room { color:var(--gold); font-style:italic; }
   .h-logo em { font-style:italic; color:var(--gold); }
   .h-studio {
     font-size:11px; letter-spacing:8px; font-weight:500; text-transform:uppercase;
-    color:var(--fog); margin-top:12px;
+    color:var(--gold2); margin-top:12px;
     opacity:0; animation:fadeup .7s ease .4s forwards;
+    text-shadow:
+      0 0 8px rgba(201,168,76,0.9),
+      0 0 20px rgba(201,168,76,0.6),
+      0 0 40px rgba(201,168,76,0.3);
   }
   .h-rule {
     width:44px; height:1px; margin:28px auto;
@@ -364,7 +370,7 @@
 <section class="hero">
   <div class="hero-radial"></div>
   <p class="h-pre">Siaton, Negros Oriental · Est. 2024</p>
-  <h1 class="h-logo">LITERO<em>OM</em></h1>
+  <h1 class="h-logo"><span class="h-lite">LITE</span><em class="h-room">ROOM</em></h1>
   <p class="h-studio">Studios</p>
   <div class="h-rule"></div>
   <p class="h-tagline">We don't just take photos. We preserve the proof that your story happened.</p>
